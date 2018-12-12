@@ -1,0 +1,13 @@
+@import 'variables';
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'animation';
+
+img{
+  max-width: 60%;
+}
+a:visited{
+  color: inherit;
+}
+body{
+  padding-bottom: 50px;
+}

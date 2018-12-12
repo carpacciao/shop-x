@@ -1,8 +1,13 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
+import 'vue-use-vuex'
+import Vuex from 'vuex'
 import App from './App'
+import './assets/scss/main.scss'
+import '@fortawesome/fontawesome-free/css/all.css'
 
+Vue.use(Vuex)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

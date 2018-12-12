@@ -1,28 +1,23 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+  <div class="kheyes">
+    <shop-list></shop-list>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import ShopList from './components/ShopList'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ShopList
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+.kheyes{
+  margin: 0 auto;
+  width: 600px;
 }
 </style>
